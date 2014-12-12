@@ -1,6 +1,5 @@
-ruby '2.1.4'
 source 'https://rubygems.org'
-
+ruby '2.1.4'
 
 gem 'unicorn'
 gem 'capistrano-rails', group: :development

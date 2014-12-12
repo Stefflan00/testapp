@@ -1,5 +1,5 @@
 set :application, 'testapp'
-set :repo_url, 'git@github.com/Stefflan00/testapp.git'
+set :repo_url, 'https://github.com/Stefflan00/testapp'
 set :deploy_to, '/opt/www/testapp'
 set :user, 'deploy'
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets}
