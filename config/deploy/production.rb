@@ -26,7 +26,7 @@ role :db,  %w{deploy@54.171.181.15}
 # --------------
 set :ssh_options, {
     keys: %w(/Users/stefanmaier/Downloads/data_tool_server.pem),
-    #forward_agent: false,
+    forward_agent: true
     #auth_methods: %w(password)
   }
 #
