@@ -1,5 +1,9 @@
+ruby '2.1.4'
 source 'https://rubygems.org'
 
+
+gem 'unicorn'
+gem 'capistrano-rails', group: :development
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
@@ -37,4 +41,3 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
